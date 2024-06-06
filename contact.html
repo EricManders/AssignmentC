@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--THIS IS NEEDED FOR THE MEDIA QUERIES TO WORK-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Eric Manders</title>
+	<!-- Link to my stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Link to my javascript -->
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+	<header>
+	<!-- Navigation menu -->
+		<nav class="navigation">
+			<ul class="nav-ul">
+					<li class="Title">
+						<a href="index.html" class="nav-link">Eric Manders</a>
+					</li>
+					<div id="myLinks">
+					<li class="F-Right">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<li class="F-Right">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="F-Right">
+						<a href="work.html" class="nav-link">Work</a>
+					</li class="F-Right">
+					<li class="F-Right">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+				</div>
+			</ul>
+			<div onclick="myFunction()" class="Hamburger">
+				<div class="bars"></div>
+    			<div class="bars"></div>
+    			<div class="bars"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+	<!--OneLiner about contact -->
+		<div class="container">
+			<div class="container-item">
+				<h1 class="H-1">Want to make contact?<br>I will reply</h1>
+				<hr class="line">
+			</div>	
+		</div>
+		<!-- Contact -->
+		<div class="container-contact">
+			<div class="container-item">
+				<h1>Please fill in this contact form</h1>
+				<form action="https://formspree.io/f/mqkwvpro" method="POST">
+  					<label>Your email:
+  						<input type="email" name="_replyto">
+  					</label>
+  					<br>
+  					<label>Your message:
+    					<textarea name="message"></textarea>
+  					</label>
+  					<br>
+  				<!-- your other form fields go here -->
+  					<button class="submit" type="submit">Send</button>
+				</form>
+			</div>	
+		</div>
+	</main>
+<footer>
+	<div class="container-footer">
+		<div class="container-item">
+			<ul class="footer-ul">
+				<li class="footer-li">
+					<a href="work.html">Work</a>
+				</li>
+				<li class="footer-li">
+					<a href="about.html">About</a>
+				</li>
+				<li class="footer-li">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container-item">
+			<img class="footer-image" src="img/Myself.jpg">
+		</div>
+		<div class="container-item">
+			<ul class="footer-ul">
+				<li class="footer-li">
+					<a href="https://www.instagram.com/eric__manders/">Instagram</a>
+				</li>
+				<li class="footer-li">
+					<a href="https://www.facebook.com/eric.manders.735">Facebook</a>
+				</li>
+				<li class="footer-li">
+					<a href="https://open.spotify.com/user/11123127439?si=e18788efb2004001">Spotify</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</footer>
+</body>
+</html>

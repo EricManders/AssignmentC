@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #161619;
+}
+
+.container {
+	display: grid;
+	grid-gap: 25px;
+	padding: 50px;
+	text-align: center;
+	color: #9f8466;
+}
+
+.submit {
+	background-color: #fedcac;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+p {
+	font-size: 60px;
+}
+
+.second {
+	visibility: hidden;
+}
+
+.image-minute {
+	width: 100%;
+	border:  2px solid black;
+	border-radius: 5px;
+	height: 300px;
+	width: 300px;
+	visibility: hidden;
+}
